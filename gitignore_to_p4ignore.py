@@ -9,7 +9,7 @@ import sre_yield
 def convert(f):
   for line in f:
     patterns = list(sre_yield.AllStrings( \
-                      re.sub(r'([$\*.])', \
+                      re.sub(r'([()*+?$\\.])', \
                       '\\\\\g<1>', \
                       line).strip()))
     if len(patterns) > 20:
