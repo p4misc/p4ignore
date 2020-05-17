@@ -54,7 +54,7 @@ ERROR: Too many patterns are generated from the line:
 この場合は、`\[0-9\]\*` を、単純に `*` に変更するなどした後で再度変換を実行してください。この場合、より広いパターンを網羅することになるため、支障を来たさないかを確認して変更してください。
 
 ### 網羅度について
-2020年5月17日現在で [A collection of .gitignore templates](https://github.com/github/gitignore) に登録されているすべての`gitignore`のうち、以下の3ファイルを除いて変換できることを確認しました。
+2020年5月17日現在で [A collection of .gitignore templates](https://github.com/github/gitignore) に登録されているすべての`gitignore`のうち、以下の3ファイルを除いてエラーなく変換できることを確認しました。
 * Node.gitignore
 * TeX.gitignore
 * VisualStudio.gitignore
