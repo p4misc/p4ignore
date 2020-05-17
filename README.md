@@ -14,7 +14,7 @@ Gitの`gitignore`に相当する機能ですが、`p4ignore`は `\[Aa\]` や `\[
 
 パターン表記以外の文法は同等であるため、パターン表記の箇所のみを展開して`p4ignore`に変換するためのごく簡単なスクリプトを作成しました。
 
-## 前提
+## 事前準備
 
 * Python3をインストールします。
 * [google/sre_yield](https://github.com/google/sre_yield) モジュールをインストールします。
