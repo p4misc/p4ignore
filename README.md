@@ -1,3 +1,8 @@
+# p4 typemapに与えるタイプマップの候補
+Helix Coreでは、p4 typemapを使って多重チェックアウトを防止するファイルを決めておくことができます。  
+多重チェックアウトを防止する拡張子用のタイプマップの候補を `p4typemap_for_binaries.txt` に記載しました。  
+ファイル内にbinary+lを設定するべきでない拡張子がある場合は、適宜改善していきますのでフィードバックをいただけると幸いです。
+
 # p4ignore生成スクリプト
 
 [gibo](https://github.com/simonwhitaker/gibo) と [google/sre_yield](https://github.com/google/sre_yield) を活用して gitignore を p4ignore に変換するスクリプトです。
